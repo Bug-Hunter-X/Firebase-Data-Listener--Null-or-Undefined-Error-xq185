@@ -1,0 +1,1 @@
+The Firebase SDK might throw an error if you try to access data from a listener before it has been properly attached to the database.  This often manifests as a null pointer exception or an undefined variable error, because the listener hasn't yet received the data.
